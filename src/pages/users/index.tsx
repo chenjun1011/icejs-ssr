@@ -1,4 +1,5 @@
 import {defineDataLoader, useData} from 'ice';
+import fetch from 'cross-fetch';
 
 export const dataLoader = defineDataLoader(async () =>
 {

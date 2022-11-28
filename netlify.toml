@@ -2,7 +2,7 @@
 base = "."
 publish = "./dist"
 functions = "netlify-functions/"
-command = "yarn run build"
+command = "yarn run build & rm dist/*.html"
 
 [[redirects]]
 from = "/*"
